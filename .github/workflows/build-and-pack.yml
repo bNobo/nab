@@ -40,7 +40,7 @@ name: .NET Core Desktop - Build and pack
 
 on:
   push:
-    branches: [ "root" ]
+    branches: [ "root", "fix-packing" ]
 
 jobs:
 
